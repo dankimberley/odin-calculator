@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #635f5f;
+    color: white;
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: black;
+    border-radius: 30px;
+    width: 50vh;
+}
+
+#text-box {
+    background-color: grey;
+    text-align: right;
+    font-size: 72px;
+    flex-grow: 2;
+}
+
+#button-container {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+
+button {
+    width: 22%;
+    aspect-ratio: 1/1;
+    border-radius: 100px;
+    background-color: rgb(51, 51, 51)	;
+    color: white;
+    font-size: 200%;
+    border: none;
+}
+
+
+button:hover {
+    background-color: rgb(167,167,164);
+}
+
+button:active {
+    background-color: white;
+}
+
+#zero {
+    aspect-ratio: 2/1;
+    
+    width: 40%
+}
+
+.op {
+    background-color: rgb(242, 163,60);
+}
+
+.op:hover {
+    background-color: rgb(193, 128, 46);
+}
